@@ -3,20 +3,34 @@
     padding:0px !important;
 }
 
-
+/* FUENTES */
+@font-face {
+    font-family: Eight One;
+    src: url(/assets/Fuentes/Eight\ One.ttf);
+}
+@font-face {
+    font-family: Nunito Sans;
+    src: url(/assets/Fuentes/NunitoSans.ttf);
+}
 
 /* CLASES DEL NAV */
 .nav{
     height: 15.5vh;
-    background-color: aqua;
-    
+    /* background-color: aqua; */
+    background-color: #f7ece1;
 }
-
+.bottom_nav{
+    font-family: Nunito Sans;
+}
 body nav div a{
     text-decoration: none;
     color: inherit;
 }
-
+.nebulaLogo{
+    height: 120px;
+    width: 120px;
+    padding-top: 20px !important;
+}
 
 
 
@@ -28,11 +42,13 @@ body nav div a{
 
 /* CLASES DEL SECTION */
 .section{
-    height: 74.5vh; 
-background-color: green;
-      /* background-color:#F7ECE1; */
+    height: 76.5vh; 
+/* background-color: green; */
+      background-color:#F7ECE1;
 }   
-
+.titulo_home h1{
+    font-family: Eight One;
+}
 
 
 
@@ -53,8 +69,13 @@ background-color: green;
 
 /* CLASES DEL FOOTER */
 .footer{
-    background-color: blueviolet;
+    /* background-color: #F7ECE1; */
+    background-color: #242038;
     align-content: center;
-    height: 10vh;
+    height: 8vh;
+}
+.text__footer{
+    font-family: Nunito Sans;
+    color: #F7ECE1;
 }
 
