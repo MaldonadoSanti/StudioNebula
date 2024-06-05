@@ -1,6 +1,20 @@
+*{
+    margin: 0px !important;
+    padding:0px !important;
+}
+
+
+
 /* CLASES DEL NAV */
 .nav{
-    height: 20vh;
+    height: 15.5vh;
+    background-color: aqua;
+    
+}
+
+body nav div a{
+    text-decoration: none;
+    color: inherit;
 }
 
 
@@ -12,16 +26,14 @@
 
 
 
-/* CLASES DEL BODY */
-.body{
-    
-      background-color:#F7ECE1;
-    height: 70vh; 
-} 
-.text{
-    height: 70VH;
-    
-}
+/* CLASES DEL SECTION */
+.section{
+    height: 74.5vh; 
+background-color: green;
+      /* background-color:#F7ECE1; */
+}   
+
+
 
 
 
@@ -41,6 +53,7 @@
 
 /* CLASES DEL FOOTER */
 .footer{
+    background-color: blueviolet;
     align-content: center;
     height: 10vh;
 }
