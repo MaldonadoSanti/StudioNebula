@@ -27,8 +27,8 @@ body nav div a{
     color: inherit;
 }
 .nebulaLogo{
-    height: 120px;
-    width: 120px;
+    height: 130px;
+    width: 200px;
     padding-top: 20px !important;
 }
 
@@ -42,14 +42,16 @@ body nav div a{
 
 /* CLASES DEL SECTION */
 .section{
-    height: 76.5vh; 
+    height: 77.5vh; 
 /* background-color: green; */
       background-color:#F7ECE1;
 }   
-.titulo_home h1{
+.titulo_home{
     font-family: Eight One;
 }
-
+.subtitulo_home{
+    font-family: Eight one;
+}
 
 
 
@@ -72,7 +74,7 @@ body nav div a{
     /* background-color: #F7ECE1; */
     background-color: #242038;
     align-content: center;
-    height: 8vh;
+    height: 7vh;
 }
 .text__footer{
     font-family: Nunito Sans;
